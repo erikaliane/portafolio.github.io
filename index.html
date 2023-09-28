@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS, JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Portafolio</title>
+    <link rel="icon" type="img/x-icon" href="img/codigo.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <style>
+      .badge {
+        display: inline-block;
+        padding: 10px 20px;
+        margin: 5px;
+        border-radius: 20px;
+        background: linear-gradient(45deg, #ffc7e3, #6f79d6 , #3399FF);
+
+        color: white;
+        font-weight: bold;
+        font-size: 18px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="img/codigo.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#estudios">Estudios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#estudios">Conocimientos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Presentación -->
+    <section class="hero">
+      <div class="container hero-principal d-flex flex-column justify-content-center align-items-center">
+        <div class="row">
+          <div class="col">
+            <img class="hero-imagen-desarrollador rounded-circle" src="img/foto_cv.jpg" >
+          </div>
+          <div class="col presentacion text-white">
+            <h1>Hola, soy Erika Ventura</h1>
+            <h5 class="text text-white"> Soy Desarrolladora de Software <br> y estoy  buscando  nuevos <br> desafíos y oportunidades <br> para aprender y crecer en este  <br>emocionante mundo tecnológico
+            </h5>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre mí -->
+    <section id="sobre-mi" class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+        <h2 class="seccion-titulo">Sobre mí</h2>
+        <p class="seccion-texto">Estudiante de 6to ciclo de la carrera de Diseño y Desarrollo de Software en TECSUP. Apasionada por la tecnología y programación . Con capacidad de adaptación, perseverancia y entusiasmo. Poseo conocimientos de lenguajes de programación tales como Java, JavaScript , C# y Python, dispuesta a seguir aprendiendo nuevas tecnologías.</p>
+      </div>
+    </section>
+
+    <!-- Estudios -->
+    <section id="estudios" class="estudios seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <div class="col">
+            <img id="tecsup" src="img/ieee.png" alt="Logo de TECSUP">
+          </div>
+          <div class="col">
+            <img id="tecsup" src="img/tecsup.png" alt="Logo de TECSUP">
+          </div>
+        </div>
+      </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <!-- Experiencia -->
+    <div class="container text-center">
+      <h2 class="seccion-titulo text-white">Conocimientos</h2>
+      <div class="row">
+        <!-- Desarrollo Web -->
+        <div class="columna col-12 col-md-4">
+         
+          <p class="experiencia-titulo text-white"></p>
+          <br>
+          <br>
+          <div class="badges-contenedor">
+          
+          </div>
+        </div>
+        <!-- Desarrollo Móvil -->
+        <div class="columna col-12 col-md-4">
+          
+          <br>
+          <p class="experiencia-titulo text-white"></p>
+          <br>
+          <div class="badges-contenedor">
+            <span class="badge">Spring Boot</span>
+            <span class="badge">Xamarin</span>
+            <span class="badge">Express.js</span>
+            <span class="badge">Nodejs</span>
+            <span class="badge">MongoDB</span>
+            <span class="badge">React</span>
+            <span class="badge">Express</span>
+            <span class="badge">SQLite</span>
+            <span class="badge">JavaScript</span>
+            <span class="badge">Mysql</span>
+          </div>
+       
+        </div>
+        <!-- Base de Datos -->
+        <div class="columna col-12 col-md-4">
+         
+          <br>
+          <p class="experiencia-titulo"></p>
+          <br>
+          <div class="badges-contenedor">
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<br>
+
+    <!-- Proyectos -->
+    <section class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo text-white">Mis proyectos </h2>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4 project-card">
+            <h3 class="seccion-descripcion text-white">VCS anxiety reduction time control, consiste en una aplicación web en React que determine
+                el nivel de ansiedad y stress de estudiantes
+                 </h3>
+            <div class="proyecto">
+              <img src="img/VCS_Estres.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Proyecto 1</p>
+                <div>
+                  <a href="https://github.com/dannycastilloo/Dashboard" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4 project-card">
+            <h3 class="seccion-descripcion text-white">Aplicativo Movil en Xamarin  para la Geolocalizaciòn de los Buses en Tecsup </h3>
+            <div class="proyecto">
+              <img src="img/movil_bus.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>Proyecto 2</p>
+                <div>
+                  <a href="https://github.com/erikaliane?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4 project-card">
+            <h3 class="seccion-descripcion text-white">Sitio web para Administrar Productos</h3>
+            <div class="proyecto">
+              <img src="img/dashsboard_adm.png" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Proyecto 3</p>
+                <div>
+                  <a href="https://github.com/erikaliane?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <!-- Proyecto 4 -->
+          <div class="col-12 col-md-6 col-lg-4 project-card">
+            <h3 class="seccion-descripcion text-white">Aplicación Web para Administrar Peliculas </h3>
+            <div class="proyecto">
+              <img src="img/pelicuas.png" alt="Proyecto 4">
+              <div class="overlay">
+                <p>Proyecto 4</p>
+                <div>
+                  <a href="https://github.com/erikaliane?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 5 -->
+          <div class="col-12 col-md-6 col-lg-4 project-card">
+            <h3 class="seccion-descripcion text-white">Agenda en React</h3>
+            <div class="proyecto">
+              <img src="img/VCS_Agenda.png" alt="Proyecto 5">
+              <div class="overlay">
+                <p>Proyecto 5</p>
+                <div>
+                  <a href="https://github.com/erikaliane?tab=repositories" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+      </div>
+    </section>
+    
+    <footer id="contacto" class="seccion-oscura d-flex flex-column align-items-center justify-content-center"> 
+      <p class="footer-texto text-center"> </p>
+      <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+        <a href="https://github.com/erikaliane?tab=repositories" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/erika-ventura-ramirez/" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-linkedin"></i>
+        </a>
+        <a href="mailto:erika.ventura@tecsup.edu.pe" target="_blank" rel="noopener noreferrer">
+          <i class="bi bi-envelope"></i>
+        </a>
+      </div>
+      <div class="derechos-de-autor">2023</div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>

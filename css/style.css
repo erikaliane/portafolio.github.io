@@ -1,0 +1,323 @@
+
+.navbar {
+    padding: 2rem;
+}
+  
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+  font-size:15px;
+  display: inline-block;
+  margin-left: 34px;
+}
+
+/* Estilos generales */
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-family: 'Rubik Dirt', cursive;
+}
+
+.seccion-oscura {
+  color: white;
+  background-color:  #20203c;
+}
+
+.seccion-clara {
+  color: black;
+  background-color: #20203c;
+}
+
+.seccion-titulo {
+  font-size: 2rem;
+  padding-top: 15px;
+  font-family: 'Rubik Dirt', cursive;
+  text-align: center;
+}
+
+.seccion-descripcion {
+  font-size: 1.1rem;
+  color: #584e4e;
+  margin-top: 30px;
+}
+
+.seccion-texto {
+  font-size: 1.2rem;
+}
+
+.btn-info {
+  font-size: 1.1rem;
+  margin: 20px;
+}
+
+.texto-negro {
+  color: black;
+}
+
+.texto-blanco {
+  color: white;
+}
+
+/* Seccion Hero */
+
+.hero {
+  background-color: #20203c;
+  min-height: 600px;
+  text-align: center;
+}
+
+.hero-principal {
+  padding: 3rem;
+}
+
+.hero-imagen-desarrollador {
+  width: 250px;
+  height: 300px;
+  margin: 20px;
+}
+
+.hero-principal h2 {
+  font-size: 1.5rem;
+  color: #615151;
+}
+
+.presentacion {
+  padding-top: 65px;
+}
+
+#contactme {
+  background-color:  #20203c;
+  color: white;
+  border-radius: 10px;
+  margin-top: 6px;
+  border-color:  #20203c;
+}
+
+/* Sobre mi */
+
+.sobre-mi {
+  height: 400px;
+  padding: 10px;
+}
+
+.sobre-mi .contenedor {
+  max-width: 600px;
+  text-align: center;
+}
+
+/* Estudios */
+
+.estudios {
+  height: 400px;
+  padding: 100px 0;
+}
+
+#tecsup {
+  padding-top: 30px;
+  text-align: center;
+  width: 330px;
+}
+
+/* Experiencia */
+
+.experiencia {
+  padding: 40px 40px 60px 40px;
+}
+
+.experiencia .columna {
+  padding: 20px;
+  border: 2px solid #8080804d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.2s ease-in;
+}
+
+.experiencia .columna:hover {
+  color: white;
+  background-color: #1b1b32;
+}
+
+.experiencia i {
+  font-size: 2.5rem;
+  color: #7ade30;
+  background-color: #0a0a23;
+  padding: 8px 19px;
+  border-radius: 50%;
+}
+
+.experiencia-titulo {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badges-contenedor {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.badge {
+  margin: 5px;
+}
+
+/* Proyectos */
+
+.proyectos-recientes {
+  padding: 20px;
+}
+
+.proyectos-recientes img {
+  height: 100%;
+  width: 100%;
+  padding: 10px;
+  border-radius: 10px;
+  display: block;
+  transition: all 0.2s ease;
+}
+
+.proyectos-contenedor {
+  padding-top: 20px;
+  margin-bottom: 40px;
+}
+
+.overlay {
+  transition: all 0.2s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.overlay p {
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0 0 0;
+}
+
+.proyecto {
+  position: relative;
+  height: 250px;
+}
+
+.proyecto:hover img {
+  opacity: 0.2;
+}
+
+.proyecto:hover .overlay {
+  opacity: 1;
+}
+
+.overlay i {
+  color: black;
+  font-size: 60px;
+  margin: 10px;
+}  
+
+/* Footer */
+
+footer {
+  min-height: 350px;
+  padding-top: 25px;
+}
+
+.footer-texto {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.iconos-redes-sociales a {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color: white;
+  border: 2px solid rgb(13, 110, 253);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: black;
+}
+
+.derechos-de-autor {
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 20px;
+}
+
+/* Cambia el fondo de toda la página */
+body {
+  background-color: #20203c; /* Cambia a tu color de fondo deseado */
+}
+
+/* Cambia el color de texto en toda la página */
+body,
+.navbar,
+.navbar-light .navbar-toggler-icon,
+.navbar-nav .nav-link {
+  color: white !important; /* Cambia a tu color de texto deseado */
+}
+
+
+/* Adaptable (Responsivo) */
+
+@media screen and (max-width: 1439px) {
+  .overlay p {
+    font-size: 18px;
+  }
+
+  .overlay i {
+    font-size: 40px;
+  }
+
+  .proyectos-recientes {
+    width: 100%;
+    height: 100%;
+  }
+
+  .proyectos-contenedor {
+    padding-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  .seccion-titulo {
+    margin-bottom: 20px;
+  }
+
+  .seccion-descripcion {
+    margin-top: 20px;
+  }
+
+  .project-card {
+    width: 100%;
+    height: auto;
+  }
+}
+
